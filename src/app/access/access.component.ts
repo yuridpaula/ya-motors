@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./access.component.css']
 })
 export class AccessComponent implements OnInit {
+  
+  isDisabled: boolean = false;
+  clickCounter: number = 0;
+  toggleDisable: boolean = false;
 
   constructor() { }
 
